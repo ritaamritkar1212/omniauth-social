@@ -30,8 +30,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'jwt', '>= 2.0'
-  spec.add_runtime_dependency 'oauth2', '~> 2.0.6'
+  # spec.add_runtime_dependency 'jwt', '>= 2.0'
   spec.add_runtime_dependency 'omniauth', '>= 2.0', '< 3'
   spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.8.0'
 
