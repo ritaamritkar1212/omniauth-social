@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
   # spec.add_runtime_dependency 'jwt', '>= 2.0'
   spec.add_runtime_dependency 'omniauth', '>= 2.0', '< 3'
   spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.8.0'
+  s.add_dependency 'omniauth-oauth', '~> 1.1'
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
