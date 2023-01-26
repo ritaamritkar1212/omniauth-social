@@ -35,6 +35,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.8.0'
   spec.add_dependency 'omniauth-oauth', '~> 1.1'
 
+  spec.add_development_dependency 'minitest'
+  spec.add_development_dependency 'mocha'
+  spec.add_development_dependency 'rake'
+
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
 
